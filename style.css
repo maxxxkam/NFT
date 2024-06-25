@@ -7,6 +7,16 @@ body {
   background-color: #2b2b2b;
   color: white;
 }
+section {
+  padding: 80px 0;
+}
+.section-title {
+  font-size: 38px;
+  font-weight: 600;
+}
+.section-subtitle {
+  font-size: 22px;
+}
 /* font-family: "Work Sans", sans-serif */
 /* font-family: "Space Mono", monospace; */
 .header {
@@ -51,13 +61,29 @@ body {
   border-radius: 20px;
 
   font-size: 16px;
-    font-weight: 600;
-    line-height: 1.1;
-    color: white;
-    text-decoration: none;
-    border: none;
+  font-weight: 600;
+  line-height: 1.1;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
+.btn2 {
+  background: transparent;
+  padding: 20px 30px;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  border-radius: 20px;
 
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #a259ff;
+  cursor: pointer;
+}
 
 .hero {
 }
@@ -72,12 +98,12 @@ body {
   gap: 30px;
   flex-direction: column;
   align-items: start;
-  h1{
+  h1 {
     font-size: 67px;
     line-height: 1.2;
     text-transform: capitalize;
   }
-  p{
+  p {
     font-size: 22px;
   }
 }
@@ -90,19 +116,93 @@ body {
 .box {
 }
 .hero__right {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .hero__img {
-  border-radius:20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 }
 .hero__content {
   background: #3b3b3b;
   padding: 20px 22px;
-  p{
+  p {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-top: 10px;
+  }
+}
+/* TREND SECTION */
+.trend {
+}
+.container {
+}
+.section-title {
+}
+.section-subtitle {
+  /* padding-top: 80px; */
+}
+.trend__wrapper {
+  padding-top: 80px;
+  display: flex;
+  gap: 30px;
+}
+.trend__card {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.trend__big-img {
+}
+.trend__box {
+  gap: 15px;
+  display: flex;
+}
+.trend__card-name {
+}
+.trend__card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+/* TOP SECTION */
+.top {
+}
+.container {
+}
+.top__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top__info-box {
+}
+.section-title {
+}
+.section__subtitle {
+}
+
+.top__wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.top__card {
+  background: #3b3b3b;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 200px;
+  width: 100%;
+  h5{
+    position: absolute;
+    background-color: #2b2b2b;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
   }
 }
